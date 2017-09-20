@@ -1,0 +1,184 @@
+/* *************GENERAL**************/
+/*customizing the body font*/
+body{
+  font-family:'Open Sans',sans-serif;
+  background-color: pink;
+  /*padding: 1%;*/
+  /*color:#999;*/
+}
+/*customizing max width and position of the body's wrapper*/
+#wrapper{
+  max-width: 940px;
+  margin:0 auto;
+  padding: 8% 5% 0% 5%;
+  background-color:#fff;
+}
+/*customizing the size of header 3*/
+h3{
+  margin: 0 1em 0;
+}
+
+/**********GALLERY*************/
+/*customizing the gallery's img*/
+img{
+  max-width: 100%;
+}
+/*getting ride of paragraphes underline*/
+a{
+  text-decoration: none;
+}
+/**********HEADING***********/
+/*customizing the header*/
+header{
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  /*position: fixed;*/
+}
+/**********LOGO**********/
+#logo{
+  text-align: center;
+  margin: 0;
+}
+/*customizing header 1*/
+h1{
+  font-family: 'Changa One',sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: .8em;
+  /*color: #fff;*/
+}
+/*customizing header 2*/
+h3{
+  font-size: .85em;
+  margin:-5px 0 0;
+  font-weight: normal;
+  /*color: #fff;*/
+}
+
+/******NAVIGATION********/
+/*customizing the navigation*/
+nav{
+  text-align: center;
+  padding: 10px 0;
+  margin:20px 0 0;
+  /*background: ##c38ec7;*/
+}
+/*accessing the navigation unordered list*/
+/*nav{
+  background:#481e4b;
+}*/
+nav ul{
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+nav li{
+  display: inline-block;
+  /*float: right;*/
+}
+nav a{
+  font-weight: 800;
+  padding:15px 10px;
+}
+
+/**********FOOTER***********/
+footer{
+  text-align: center;
+  font-size: .75em;
+  padding-top:50px;
+  margin:0;
+  clear: both;
+  color: solid black;
+}
+
+/************PORTEFEUILLE*********/
+#gallery{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#gallery li{
+  float: left;
+  width: 45%;
+  margin:2.5%;
+  background-color: rgba(108, 45, 94, 0.76);
+}
+#gallery li a p{
+  margin: 0;
+  padding: 5%;
+  font-size: .9em bold;
+  /*font-family: fantasy;*/
+  color: rgba(18, 19, 20, 0.85);
+}
+/*customizing every anchor's color in the html*/
+a{
+  color:rgba(#0f5aeb, 0.89);
+}
+/**********HEADERS color**********/
+header{
+  /*border-color:solid #599a68 ;*/
+  background:#c38ec7;
+}
+
+nav a,nav a:visited{
+  color: #fff;
+}
+nav a.selected, nav a:hover{
+  color: #e3319d;
+}
+/*************A PROPOS**************/
+.profile-photo{
+  /*display: block;*/
+  /*max-width: 150px;*/
+  margin:0 auto 30px;
+  border-radius: 100%;
+}
+h1,h3{
+  color: #fff;
+}
+/*************
+PAGE CONTACT
+**************/
+.contacts{
+  list-style:none;
+  padding:0;
+  margin:0;
+  font-size:0.9em;
+}
+
+.contacts a{
+  display:block;
+  min-height:20px;
+  background-repeat:no-repeat;
+  background-size:20px 20px;
+  padding:0 0 0 30px;
+  margin:0 0 10px;
+}
+.contacts li.phone a{
+  background-image:url('../image/phone.png');
+}
+.contacts li.mail a{
+  background-image:url('../image/mail.png');
+}
+.contacts li.wechat a{
+  background-image:url('../image/wechat.jpg');
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  margin: 0 2px;
+}
+.entete{
+  float: left;
+  /*padding: 2px;*/
+  /*margin: 0 -18px ;*/
+  font-size: 30px;
+  /*position: fixed;*/
+}
+.entete1{
+  float: right;
+  font-size: 28px;
+}

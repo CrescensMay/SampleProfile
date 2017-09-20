@@ -1,0 +1,54 @@
+@@media screen and (min-width:450px) {
+  /*****two column layout********/
+  #section-1{
+    float: left;
+    width: 50%;
+  }
+  #section-2{
+    float: right;
+    width: 40%;
+  }
+  /******PORTEFEUILLE***********/
+  #gallery li{
+    width: 46%;
+  }
+  #gallery li:nth-child(4n){
+    float: left;
+  }
+  /*********ABOUT*******/
+  .profile-photo{
+    float: right;
+    margin: 0 5% 80px 0;
+  }
+
+}
+@media screen and (min-width:700px){
+  /*****HEADER*********/
+  nav{
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  #logo{
+    float:left;
+    margin-left:5%;
+    text-align:left;
+    width:45%;
+  }
+
+  h1{
+    font-size:2.5em;
+  }
+  h2{
+    font-size:0.825em;
+    margin-bottom:20px;
+  }
+  header{
+    border-bottom:5px solid #a51cb1;
+    margin-bottom:60px;
+}
+
+}
